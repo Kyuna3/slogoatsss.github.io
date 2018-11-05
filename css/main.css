@@ -71,7 +71,6 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-
 .scaled{  
   -ms-transform: scale(0.5);
   -webkit-transform: scale(0.5);
@@ -79,5 +78,18 @@ ul.posts li {
   -moz-transform: scale(0.5);
   transform: scale(0.5);
 }
-
+#rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#rotate90 {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
 #autosizeImage {  width: 100%;  height: auto; } 
